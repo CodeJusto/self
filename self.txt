@@ -1,0 +1,4 @@
+Self is a special keyword that refers back to either the class or the instance it is inside. If self is called either inside the class method or when 
+defining a method inside a class, it is indicating that the entire method is relating to the class itself. If self is used in the context of an instance of a class, self will refer to the instance of a class. 
+
+As a rule of thumb, whenever self is used inside an instance variable method, it is referring to the instance. If it is outside an instance method but within a class method, it refers to the class. 
